@@ -5,6 +5,7 @@ export default function Five() {
     const [isToggled, setIsToggled] = useState(false);
     const handleToggle = ()=>{
         setIsToggled(!isToggled);
+        // here we usee useState hook we can use another hooks also
     }
   return (
     <div>

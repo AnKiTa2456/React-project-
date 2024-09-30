@@ -4,6 +4,7 @@ export default function Six() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
+    // use another api for fetch image and show title and body and you can show multiple data that you want to fetch.
     // https://dummyjson.com/image/SIZE/?text=TEXT&fontSize=FONT_SIZE
     fetch('https://jsonplaceholder.typicode.com/posts/1')
       .then(response => response.blob()) // Convert response to blob
