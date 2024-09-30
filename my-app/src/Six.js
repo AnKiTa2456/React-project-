@@ -1,3 +1,4 @@
+//Create a component that fetchs data from an API  and display it.
 import React, { useEffect, useState } from 'react'
 
 export default function Six() {
