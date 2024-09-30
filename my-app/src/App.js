@@ -6,6 +6,7 @@ import Three from './Three';
 import Four from './Four';
 import Five from './Five';
 import Six from './Six';
+import Seven from './Seven';
  
 export default function App() {
   return (
@@ -15,7 +16,8 @@ export default function App() {
       {/* <Three/> */}
       {/* <Four/> */}
       {/* <Five/> */}
-      <Six/>
+      {/* <Six/> */}
+      <Seven/>
     </div>
   )
 }
