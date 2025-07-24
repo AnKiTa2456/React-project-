@@ -1,7 +1,7 @@
 import React from 'react';
 import TodoItem from './TodoItem';
 
-function TodoList({ todos, toggleTodo, deleteTodo }) {
+function TodoList({ todos, toggleTodo, deleteTodo, updateTodo }) {
   return (
     <ul className="todo-list">
       {todos.map(todo => (
@@ -10,6 +10,7 @@ function TodoList({ todos, toggleTodo, deleteTodo }) {
           todo={todo}
           toggleTodo={toggleTodo}
           deleteTodo={deleteTodo}
+          updateTodo={updateTodo}
         />
       ))}
     </ul>
